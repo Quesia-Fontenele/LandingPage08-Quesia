@@ -3,18 +3,18 @@ body{
     text-decoration: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 #inicio{
     background-image: url(https://farmasi-gcc.com/wp-content/uploads/revslider/slider-organic/organic-slider1.jpg);
-    width: 100%;
+    width: 100vw;
     height: 40vh;
     background-size: cover;
 }
 #cabecalho{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 5vh;
     flex-direction: row;
     justify-content: space-between;
@@ -151,7 +151,7 @@ body{
     width: 20vw;
     margin-right: 1%;
     margin-top: 1%;
-    background-color: rgb(16, 126, 16);
+    background-color:rgb(25, 180, 25);
     padding-left:3%;
     color: white;
 }
@@ -167,26 +167,32 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-#formulario h5{
-    display: flex;
-    flex-direction: column;
-    height: 7vh;
+span{
+    color: greenyellow;
+    cursor: pointer;
 }
+
 #name{
     display: flex;
     justify-content: space-between;
     gap: 1vw;
-    width: 35vw;
+    width: 35.5vw;
+
 }
-#name input{
-    width: 35vw;
-    height: 5vh;
+.oi1{
+    width: 34vw;
 }
+
 #sub input{
     width: 35vw;
     height: 5vh;
     display: flex;
 }
+.oi{
+    width: 34vw;
+    height: 5vh;
+}
+
 #mess input{
     width: 35vw;
     height: 15vh;
@@ -194,9 +200,9 @@ body{
 #botao button{
     width: 10vw;
     height: 5vh;
-    border-radius: 30%;
+    border-radius: 20px;
     border: none;
-    background-color: rgb(16, 126, 16);
+    background-color: rgb(25, 180, 25);
 }
 #botao a{
     color: white;
@@ -205,6 +211,21 @@ body{
 #celphone{
     display: flex;
     width: 20vw;
+}
+.bola button{
+    background-color: rgb(25, 180, 25);
+    color: white;
+    border-radius: 50%;
+    height: 3.5vh;
+    border: 1px solid white;
+    
+}
+.bola1 button{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 4vh;
+    border: 1px solid white;
 }
 #mapa {
     height: 60vh;
@@ -311,11 +332,15 @@ body{
     height: 5vh;
 }
 #q4 button{
-    background-color: rgb(16, 126, 16);
+    background-color: rgb(25, 180, 25);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#news a{
+    text-decoration: none;
+    color: white;
 }
 #linhafina{
     background-color: white;
